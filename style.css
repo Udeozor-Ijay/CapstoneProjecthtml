@@ -116,3 +116,26 @@ h2, header, #form {
     margin-bottom: 3em;
     height: fit-content;
 }
+
+#button{
+  background-color: hsl(198, 60%, 50%);
+  border-radius: 12px;
+  color: white;
+  margin: 40px;
+  padding: 14px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
+
+#mail { 
+    border-radius: 12px;
+  color: white;
+  padding: 14px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+
+}

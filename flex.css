@@ -1,0 +1,14 @@
+#main {
+    display: flex;
+    flex-direction: column;   
+}
+
+
+#footer {
+    display: flex;
+
+}
+
+#nav{
+    display: flex;
+}

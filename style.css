@@ -92,9 +92,10 @@ header,
   background-color: hsl(217, 28%, 15%);
   text-align: center;
   height: fit-content;
-  width: 50%;
+  width: fit-content;
   padding: 2em; 
   border-radius: 24px;
+  margin-left: 25%;
 }
 
 /*#list1{
@@ -129,12 +130,14 @@ header,
   color: white;
   margin: 40px;
   padding: 14px 40px;
-  text-align: center;
+  text-align:center;
   text-decoration: none;
   font-size: 14px;
+  width: fit-content;
 }
 
 #mail {
+  width: fit-content;
   border-radius: 12px;
   color: white;
   padding: 14px 40px;
@@ -192,9 +195,11 @@ header,
 
 #box7 {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  align-content: center;
 }
 
 
@@ -202,18 +207,34 @@ header,
   padding: 6em;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content:space-around;
   align-content: space-between;
   
 }
 
+footer > section > div > ul {
+  margin: 10em;
+}
+
 #nav {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
+  
 }
 
 .icons {
   width: 3.5%;
   padding: 2em;
 }
+
+@media only screen and (max-width: 600px) {
+  #box5 {
+   flex-wrap: wrap;
+  }
+  
+ #footer
+  {flex-wrap: wrap;}
+ 
+}
+

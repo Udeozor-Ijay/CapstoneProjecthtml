@@ -1,5 +1,5 @@
 body {
-  /*text-align: center;*/
+  text-align: center;
   background-color: hsl(218, 28%, 13%);
   font-size: 14px;
   color: hsl(0, 0%, 100%);
@@ -96,6 +96,7 @@ header,
   padding: 2em; 
   border-radius: 24px;
   margin-left: 25%;
+  margin-right: 25%;
 }
 
 /*#list1{
@@ -159,7 +160,7 @@ header,
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-bottom: 70px;
+  margin-bottom: 30px;
   flex-wrap: wrap;
 }
 
@@ -175,7 +176,7 @@ header,
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-bottom: 120px;
+  margin-bottom: 50px;
   flex-wrap: wrap;
 }
 
@@ -228,13 +229,15 @@ footer > section > div > ul {
   padding: 2em;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   #box5 {
    flex-wrap: wrap;
   }
   
  #footer
   {flex-wrap: wrap;}
- 
+
+
+
 }
 
